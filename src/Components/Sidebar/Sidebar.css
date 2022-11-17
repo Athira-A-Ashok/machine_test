@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar-main {
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    background-color: #ED1B2E;
+    position: fixed;
+    height: 100%;
+    position: absolute;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.top {
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    background-color: black;
+    position: fixed;
+    height: 89%;
+    margin-top: 21px;
+    overflow: auto;
+    position: absolute;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    margin-top: 50px;
+}
+
+ion-icon {
+    padding-bottom: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.navbar-main {
+    width: 94.9%;
+    height: 70px;
+    margin-left: 30px;
+    left: 40px;
+    position: absolute;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.navbar-left-menu {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar-left-menu span {
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.navbar-right-menu input {
+    height: 30px;
+    background-color: rgb(236, 235, 235);
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+}
+
+.navbar-right-menu button {
+    margin-left: 30px;
+    margin-right: 60px;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    outline: none;
+    border: 1px solid #BDBDBD;
+    background-color: rgb(236, 235, 235);
+}
